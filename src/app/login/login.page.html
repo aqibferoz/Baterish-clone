@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-text-center">
+
+  <h1>Barterish</h1>
+
+  <form>
+
+    <ion-input  placeholder="Username" class="input-margin-one" type="text"></ion-input>
+
+    <ion-input  placeholder="Password" class="input-margin-second" type="password">
+    </ion-input>
+
+    <ion-button expand="block" color="light" class="input-margin-third " (click)="login()">Sign In</ion-button>
+
+  </form>
+
+  <p color="light" class="forgot-password">Forgot Password?</p>
+
+  <p class="ion-text-center or-label" color="light">OR</p>
+
+  <ion-button expand="block" class="input-margin-second" (click)="facebookLogin()">Login with Facebook</ion-button>
+
+  <ion-button color="danger" expand="block" class="input-margin-second input-margin-fourth" (click)="googleLogin()">
+    Login with Google
+  </ion-button>
+
+  <p color="light" class="forgot-password">Not a Member? <span (click)="register()"> Register Now</span></p>
+
+</ion-content>

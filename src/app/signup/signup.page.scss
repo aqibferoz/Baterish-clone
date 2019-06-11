@@ -1,0 +1,27 @@
+
+.abc{
+    background: linear-gradient(to left,#A06C46, #1C4577) !important;
+    height: 125px !important;
+    border-radius: 0% 0% 50% 50% ;
+    position: initial;
+    margin: 0% -10% 0% -10% !important;
+    width: 120% !important;
+}
+h1{
+    // --font-family: 'Montserrat-Bold';
+    color: white;
+    font-family: "Pacifico-Regular" !important;
+    font-size: 40px;
+    margin-top: 30px
+}
+ion-title{
+    color: white;
+    font-family: "Pacifico-Regular" !important;
+    font-size: 40px;
+    //margin-top: 30px
+}
+.signupForm{
+border-radius: 10px !important;
+// border: #1C4577 1px solid;
+box-shadow: 0 4px 8px 0 rgb(224, 219, 219), 0 6px 20px 0 rgb(224, 219, 219) !important;
+}

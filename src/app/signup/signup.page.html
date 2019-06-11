@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>signup</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid class="abc">
+    <ion-row>
+      <ion-col>
+        <!-- <ion-icon name="md-arrow-round-back" style="color:white"></ion-icon> -->
+      </ion-col>
+      <ion-col>
+        <h1 text-center>Barterish</h1>
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div padding>
+    <ion-grid class="signupForm">
+      <form >
+        <ion-item>
+          <ion-input placeholder="First Name" ></ion-input>
+        </ion-item>
+        <br>
+        <ion-item>
+          <ion-input placeholder="Last Name" ></ion-input>
+        </ion-item>
+        <br>
+        <ion-item>
+          <ion-input placeholder="E-mail" ></ion-input>
+        </ion-item>
+        <br>
+        <ion-item>
+          <ion-input placeholder="Password"  type="password"></ion-input>
+        </ion-item>
+        <br>
+        <ion-item>
+          <ion-input placeholder="Confirm Password"  type="password"></ion-input>
+        </ion-item>
+      </form>
+      <br>
+      <ion-item lines="none">
+        <ion-row>
+          <ion-col size="1">
+            <ion-checkbox mode="md" color="light"></ion-checkbox>
+          </ion-col>
+          <ion-col size="11">
+            <p style="font-size:13px">I have read and agree to the <br />
+              <a>Terms and Conditions</a> and <a>Privacy Policy</a>
+            </p>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+
+    </ion-grid>
+    <h3 text-center (click)="signup()"><b>Next</b></h3>
+    <p text-center><small>Have an account ?</small> <a (click)="gotoLogin()" style="color:black"> Sign In</a></p>
+  </div>
+</ion-content>
